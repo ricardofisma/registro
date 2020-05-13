@@ -89,7 +89,6 @@ MathJax.Hub.Config({
         text-align: left;
         # background-color: grey;
         border: 1px solid white;
-        border-radius: 3px 3px;
         border-spacing: 15px;
         display: block;
         font-size: 1.5em;
@@ -105,7 +104,6 @@ MathJax.Hub.Config({
         text-align: left;
         font-size: 1.17em;
         border: 1px solid #775323;
-        border-radius: 3px 3px;
         border-spacing: 15px;
         # background-color: aliceblue;
     }
@@ -191,8 +189,8 @@ MathJax.Hub.Config({
     article {
         padding: 10px;
         # border: 1px solid yellow;
-        border-radius: 12px;
-        background: #e32;
+        border-radius: 3px;
+        background: #5532;
         margin-top: 10px;
         # margin-bottom: 1%;
 
@@ -208,8 +206,8 @@ MathJax.Hub.Config({
 
     blockquote {
         # border: 1px solid black;
-        border-radius: 10px;
-        background: yellow;
+        border-radius: 3px;
+        background: #5265;
         padding: 6%;
         margin-top: 10px;
         # margin-bottom: 0%;
@@ -367,78 +365,8 @@ disturbing the spacing between lines.
   \nabla \cdot \vec{\mathbf{B}} & = 0
 \end{align}
 
-<table style="width:100%" rules="all" border-collapse=separate  border-spacing=150px>
-<thead>
-<tr class="header">
-<th align="center">Clase</th>
-<th align="center">Clase</th>
-<th align="center"><span class="math inline">\(f_i\)</span></th>
-<th align="center"><span class="math inline">\(F_i\)</span></th>
-<th align="center"><span class="math inline">\(F_i^*\)</span></th>
-<th align="center"><span class="math inline">\(h_i\)</span></th>
-<th align="center"><span class="math inline">\(H_i\)</span></th>
-<th align="center"><span class="math inline">\(H_i^*\)</span></th>
-<th align="center"><span class="math inline">\(\ldots\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><span class="math inline">\([y_1-y_2&gt;\)</span></td>
-<td align="center"><span class="math inline">\(y_1\)</span></td>
-<td align="center"><span class="math inline">\(f_1\)</span></td>
-<td align="center"><span class="math inline">\(F_1\)</span></td>
-<td align="center"><span class="math inline">\(F_1^*\)</span></td>
-<td align="center"><span class="math inline">\(\frac{f_1}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_1}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_1^*}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\ldots\)</span></td>
-</tr>
-<tr class="even">
-<td align="center"><span class="math inline">\(&lt;y_1-y_2&gt;\)</span></td>
-<td align="center"><span class="math inline">\(y_2\)</span></td>
-<td align="center"><span class="math inline">\(f_2\)</span></td>
-<td align="center"><span class="math inline">\(F_2\)</span></td>
-<td align="center"><span class="math inline">\(F_2^*\)</span></td>
-<td align="center"><span class="math inline">\(\frac{f_2}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_2}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_2^*}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\ldots\)</span></td>
-</tr>
-<tr class="odd">
-<td align="center"><span class="math inline">\(&lt;y_{r}-y_r&gt;\)</span></td>
-<td align="center"><span class="math inline">\(y_3\)</span></td>
-<td align="center"><span class="math inline">\(f_3\)</span></td>
-<td align="center"><span class="math inline">\(F_3\)</span></td>
-<td align="center"><span class="math inline">\(F_3^*\)</span></td>
-<td align="center"><span class="math inline">\(\frac{f_3}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_3}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_3^*}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\ldots\)</span></td>
-</tr>
-<tr class="even">
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-<td align="center"><span class="math inline">\(\vdots\)</span></td>
-</tr>
-<tr class="odd">
-<td align="center"><span class="math inline">\(&lt;y_{r-1}-y_r]\)</span></td>
-<td align="center"><span class="math inline">\(y_r\)</span></td>
-<td align="center"><span class="math inline">\(f_r\)</span></td>
-<td align="center"><span class="math inline">\(F_r\)</span></td>
-<td align="center"><span class="math inline">\(F_r^*\)</span></td>
-<td align="center"><span class="math inline">\(\frac{f_r}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_r}{n}\)</span></td>
-<td align="center"><span class="math inline">\(\frac{F_r^*}{n}\)</span></td>
-<td align="center"><span class="math inline">\(...\)</span></td>
-</tr>
-</tbody>
-</table>
+
+
 
 
 
