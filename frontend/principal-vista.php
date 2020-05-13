@@ -21,6 +21,16 @@
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {equationNumbers: { autoNumber:"AMS"}},
+  "HTML-CSS": { availableFonts: ["Tex"] }
+});
+</script>
+
+
+
+
 
     <style>
         
