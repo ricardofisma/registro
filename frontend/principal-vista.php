@@ -32,7 +32,7 @@
             width: 100%;
             max-width: 600px;
             margin: auto;
-            margin-top: 100px;
+            margin-top: 10px;
             background: rgba(0,0,0,0.6);
             text-align: center;
             padding: 20px;
@@ -224,8 +224,20 @@
         <a href="cerrar.php">Cerrar sesion</a>
    </div>
    
+<section class="main">
 
+    <article>
+        <h2>Primero</h2>
  
+        <!--
+            <center>
+<iframe  width="800" height="500" src="https://www.youtube.com/embed/tWJk0RmZ5uU?start=251" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.xvideos.com/embedframe/46618037" frameborder=0 width=800 height=500 scrolling=no allowfullscreen=allowfullscreen></iframe>
+<iframe src="https://www.xvideos.com/embedframe/26754231" frameborder=0 width=800 height=500 scrolling=no allowfullscreen=allowfullscreen></iframe>
+</center>
+-->
+
+
 \begin{align*}
 \dot{x}^77 & = \sigma(y-x) \\
 \dot{y} & = \rho x - y - xz \\
@@ -281,6 +293,469 @@
 \end{align}
 
 
+<h3>In-line Mathematics</h3>
+
+Finally, while display equations look good for a page of samples, the
+ability to mix math and text in a paragraph is also important.  This
+expression \(\sqrt{3x-1}+(1+x)^2\) is an example of an inline equation.  As
+you see, MathJax equations can be used this way as well, without unduly
+disturbing the spacing between lines.
+
+
+
+
+
+<table style="width:100%" rules="all">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} & = 0
+\end{align}
+
+<table style="width:100%" rules="all">
+  <figcaption>Here is the legend for your image<figcaption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <th align="center"><span class="math display">\[f_i=\int_1^2\]</span></th>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>February</td>
+    <td><span class="math display">\[f_i=\int_1^2\]</span></td>
+  </tr>
+</table>
+
+
+
+
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} & = 0
+\end{align}
+
+<table style="width:100%" rules="all" border-collapse=separate  border-spacing=150px>
+<thead>
+<tr class="header">
+<th align="center">Clase</th>
+<th align="center">Clase</th>
+<th align="center"><span class="math inline">\(f_i\)</span></th>
+<th align="center"><span class="math inline">\(F_i\)</span></th>
+<th align="center"><span class="math inline">\(F_i^*\)</span></th>
+<th align="center"><span class="math inline">\(h_i\)</span></th>
+<th align="center"><span class="math inline">\(H_i\)</span></th>
+<th align="center"><span class="math inline">\(H_i^*\)</span></th>
+<th align="center"><span class="math inline">\(\ldots\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><span class="math inline">\([y_1-y_2&gt;\)</span></td>
+<td align="center"><span class="math inline">\(y_1\)</span></td>
+<td align="center"><span class="math inline">\(f_1\)</span></td>
+<td align="center"><span class="math inline">\(F_1\)</span></td>
+<td align="center"><span class="math inline">\(F_1^*\)</span></td>
+<td align="center"><span class="math inline">\(\frac{f_1}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_1}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_1^*}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(&lt;y_1-y_2&gt;\)</span></td>
+<td align="center"><span class="math inline">\(y_2\)</span></td>
+<td align="center"><span class="math inline">\(f_2\)</span></td>
+<td align="center"><span class="math inline">\(F_2\)</span></td>
+<td align="center"><span class="math inline">\(F_2^*\)</span></td>
+<td align="center"><span class="math inline">\(\frac{f_2}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_2}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_2^*}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(&lt;y_{r}-y_r&gt;\)</span></td>
+<td align="center"><span class="math inline">\(y_3\)</span></td>
+<td align="center"><span class="math inline">\(f_3\)</span></td>
+<td align="center"><span class="math inline">\(F_3\)</span></td>
+<td align="center"><span class="math inline">\(F_3^*\)</span></td>
+<td align="center"><span class="math inline">\(\frac{f_3}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_3}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_3^*}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(&lt;y_{r-1}-y_r]\)</span></td>
+<td align="center"><span class="math inline">\(y_r\)</span></td>
+<td align="center"><span class="math inline">\(f_r\)</span></td>
+<td align="center"><span class="math inline">\(F_r\)</span></td>
+<td align="center"><span class="math inline">\(F_r^*\)</span></td>
+<td align="center"><span class="math inline">\(\frac{f_r}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_r}{n}\)</span></td>
+<td align="center"><span class="math inline">\(\frac{F_r^*}{n}\)</span></td>
+<td align="center"><span class="math inline">\(...\)</span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+Here's one using the equation environment:
+\begin{equation}\label{ref2}
+x+1\over\sqrt{1-x^2}
+\end{equation}
+and one with equation* environment:
+\begin{equation*}
+x+1\over\sqrt{1-x^2}
+\end{equation*}
+
+
+
+This is a forward reference \eqref{ref3} and another \eqref{ref2} for the 
+following equation:
+$$x+1\over\sqrt{1-x^2}$$
+More math:
+$$x+1\over\sqrt{1-x^2}$$
+Here is a ref inside math: \(\ref{ref3}+1\) and text after it.
+
+\begin{align*} 
+x& = y_1-y_2+y_3-y_5+y_8-\dots 
+&& \text{by \eqref{ref3}}\notag\\ 
+& = y'\circ y^* && \text{(by \eqref{ref3})}\\ 
+& = y(0) y' && \text {by Axiom 1.} 
+\end{align*} 
+
+Here's a bad ref [\ref{ref3}] to a nonexistent label.
+
+
+
+An alignment:
+\begin{align}
+a&=b\label{ref3}\cr
+&=c+d
+\end{align}
+and a starred one:
+\begin{align*}
+a&=b\cr
+&=c+d
+\end{align*}
+
+    </article>
+
+
+<article>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    }
+  
+  
+    .calculadora {
+      background-color: #e2e2e2;
+      width: fit-content;
+      margin: auto;
+      margin-top: 35px
+    }
+  
+    .sr {
+      padding: 0px 18px 18px 18px;
+    }
+  
+    .sr button {
+      width: 100%;
+      background-color: #48c;
+      color: #fff;
+      border: none;
+      font-size: 50px;
+      padding: 0px
+    }
+  
+    .teclas {
+      display: flex;
+    }
+  
+    .pantalla {
+      padding: 10px;
+    }
+  
+    .numeros {
+      padding: 10px;
+    }
+  
+    .op {
+      padding: 10px
+    }
+  
+    #resultado {
+      background-color: #666;
+      color: #eee;
+      padding: 6px;
+      font-family: monospace;
+      font-size: 20px
+    }
+  
+    .op button {
+      display: block;
+      border-radius: 10px;
+      width: 54px;
+      height: 54px;
+      padding: 9px 15px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+    }
+  
+    .numeros div {
+      text-align: center;
+    }
+  
+    .numeros button {
+      border: 0px;
+      border-radius: 10px;
+      background-color: #139a64;
+      transition: all 0.09s
+    }
+  
+    .numeros button:hover {
+      box-shadow: 0px 0px 10px #aaa;
+    }
+  
+    button {
+      margin: 2px 0px;
+      padding: 15px 24px;
+      font-size: 19px;
+    }
+  </style>
+  
+  <div class="calculadora">
+    <div class="pantalla">
+      <div id="resultado"></div>
+    </div>
+    <div class="teclas">
+      <div class="numeros">
+        <div>
+          <button id="n1">1</button>
+          <button id="n2">2</button>
+          <button id="n3">3</button>
+        </div>
+        <div>
+          <button id="n4">4</button>
+          <button id="n5">5</button>
+          <button id="n6">6</button>
+        </div>
+        <div>
+          <button id="n7">7</button>
+          <button id="n8">8</button>
+          <button id="n9">9</button>
+        </div>
+        <div>
+          <button id="n0">0</button>
+        </div>
+      </div>
+      <div class="op">
+        <button id="s">+</button>
+        <button id="r">-</button>
+        <button id="d">÷</button>
+        <button id="m">x</button>
+      </div>
+    </div>
+    <div class="sr">
+      <button id="sr">=</button>
+    </div>
+  </div>
+  <script>
+    document.getElementById("n1").addEventListener("click", n1);
+    document.getElementById("n2").addEventListener("click", n2);
+    document.getElementById("n3").addEventListener("click", n3);
+    document.getElementById("n4").addEventListener("click", n4);
+    document.getElementById("n5").addEventListener("click", n5);
+    document.getElementById("n6").addEventListener("click", n6);
+    document.getElementById("n7").addEventListener("click", n7);
+    document.getElementById("n8").addEventListener("click", n8);
+    document.getElementById("n9").addEventListener("click", n9);
+    document.getElementById("n0").addEventListener("click", n0);
+    document.getElementById("s").addEventListener("click", o1);
+    document.getElementById("r").addEventListener("click", o2);
+    document.getElementById("d").addEventListener("click", o3);
+    document.getElementById("m").addEventListener("click", o4);
+    document.getElementById("sr").addEventListener("click", showResult);
+
+    function n1() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n1").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n2() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n2").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n3() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n3").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n4() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n4").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n5() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n5").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n6() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n6").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n7() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n7").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n8() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n8").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n9() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n9").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+    function n0() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("n0").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+
+    function o1() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("s").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+
+    function o2() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("r").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+
+    function o3() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("d").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+
+    function o4() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let sumado = document.getElementById("m").innerHTML;
+      document.getElementById('resultado').innerHTML = actual + sumado
+    }
+
+    function showResult() {
+      let actual = document.getElementById('resultado').innerHTML;
+      let suma = actual.indexOf("+");
+      let resta = actual.indexOf("-");
+      let div = actual.indexOf("÷");
+      let mult = actual.indexOf("x");
+      if (suma !== -1) {
+        arr = actual.split("+", 2);
+        res = parseInt(arr[0]) + parseInt(arr[1]);
+        document.getElementById("resultado").innerHTML = res;
+      } else if (resta !== -1) {
+        arr = actual.split("-", 2);
+        res = arr[0] - arr[1];
+        document.getElementById("resultado").innerHTML = res;
+
+      } else if (div !== -1) {
+        arr = actual.split("÷", 2);
+        res = arr[0] / arr[1];
+        document.getElementById("resultado").innerHTML = res;
+
+      } else if (mult !== -1) {
+        arr = actual.split("x", 2);
+        res = arr[0] * arr[1];
+        document.getElementById("resultado").innerHTML = res;
+
+      }
+    }
+  </script>
+
+</article>
+
+
+
+    </section>
+    
+    <aside>
+        
+    <blockquote>
+    <h3>Primero</h3>
+        <p>Un párrafo, también llamado parágrafo (del griego παράγραφος [parágraphos], y este de παρα, «próximo, semejante», y γραφος, «escritura»), es una unidad comunicativa formada por un conjunto de oraciones secuenciales que trata un mismo tema.</p>
+        
+    </blockquote>
+        
+        
+        
+    <blockquote>
+    <h3>Primero</h3>
+        <p>Un párrafo, también llamado parágrafo (del griego παράγραφος [parágraphos], y este de παρα, «próximo, semejante», y γραφος, «escritura»), es una unidad comunicativa formada por un conjunto de oraciones secuenciales que trata un mismo tema. §.</p>
+        
+    </blockquote>
+        
+    </aside>
+    
+    
+
+
+
+
+
+
+
+<footer>
+    <p>Ricardo Mallqui Baños</p>  
+      </footer>
 
 </body>
 </html>
