@@ -20,8 +20,8 @@
                 <h2>Magtimus</h2>
             </div>
             <div class="menu">
-                <a href="login.php"><li class="module-login active">Login</li></a>
-                <a href="register.php"><li class="module-register">Register</li></a>
+                <a href="login.php"><li class="module-login active">Inicio de sesión</li></a>
+                <a href="register.php"><li class="module-register">Registro</li></a>
             </div>
         </div>
         
