@@ -23,7 +23,7 @@
             $error .= '<i>Favor de rellenar todos los campos</i>';
         }else{
             try{
-                $conexion = new PDO('mysql:host=b2fl5juvonx7jy2herss-mysql.services.clever-cloud.com;dbname=b2fl5juvonx7jy2herss', 'u2torrdwkgyxog4s', 'PPe6V7lNx0FjMHYfApZI');
+                $conexion = new PDO('mysql:host=localhost;dbname=login_tuto', 'root', '');
             }catch(PDOException $prueba_error){
                 echo "Error: " . $prueba_error->getMessage();
             }
