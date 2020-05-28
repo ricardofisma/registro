@@ -23,13 +23,13 @@
             $error .= '<i>Favor de rellenar todos los campos</i>';
         }else{
             try{
-                //$conexion = new PDO('mysql:host=localhost;dbname=login_tuto', 'root', '');
-         $conexion = new PDO('mysql:host=b2fl5juvonx7jy2herss-mysql.services.clever-cloud.com;dbname=b2fl5juvonx7jy2herss', 'u2torrdwkgyxog4s', 'PPe6V7lNx0FjMHYfApZI');
+                $conexion = new PDO('mysql:host=localhost;dbname=proyecto', 'root', '');
+         //$conexion = new PDO('mysql:host=b2fl5juvonx7jy2herss-mysql.services.clever-cloud.com;dbname=b2fl5juvonx7jy2herss', 'u2torrdwkgyxog4s', 'PPe6V7lNx0FjMHYfApZI');
             }catch(PDOException $prueba_error){
                 echo "Error: " . $prueba_error->getMessage();
             }
             
-            $statement = $conexion->prepare('SELECT * FROM login WHERE usuario = :usuario LIMIT 1');
+            $statement = $conexion->prepare('SELECT * FROM logo WHERE usuario = :usuario LIMIT 1');
             $statement->execute(array(':usuario' => $usuario));
             $resultado = $statement->fetch();
             
@@ -46,7 +46,7 @@
         }
         
         if ($error == ''){
-            $statement = $conexion->prepare('INSERT INTO login (id, correo, usuario, clave) VALUES (null, :correo, :usuario, :clave)');
+            $statement = $conexion->prepare('INSERT INTO logo (id, correo, usuario, clave) VALUES (null, :correo, :usuario, :clave)');
             $statement->execute(array(
                 
                 ':correo' => $correo,
@@ -55,7 +55,7 @@
                 
             ));
             
-            $error .= '<i style="color: green;">Usuario registrado exitosamente</i>';
+            $error .= '<i style="color: white;">Usuario registrado exitosamente</i>';
         }
     }
 
