@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
      <link rel="shortcut icon" type="image/x-icon" href="w.ico">
     
-    <link rel="stylesheet" href="icon/style.css">
+
     <link rel="stylesheet" href="css/style.css">
 <link type="text/css" rel="stylesheet" href="main.css">
     
