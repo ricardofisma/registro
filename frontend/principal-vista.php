@@ -531,8 +531,8 @@ $$\left(2\pi\sigma^2\right)^{-\frac{1}{2}}\exp\left\{-\frac{1}{2\sigma^2}\left(x
 		var bellStandw = function (x){ return 1/(Math.sqrt(2 * Math.PI)) * Math.exp(-1 * Math.pow((x), 2)/(2));};
 
 		board = JXG.JSXGraph.initBoard("new", { showNavigation: false, showCopyright: false, boundingbox: [-6.5, 0.82, 18, -0.25], axis: true, pan: true, zoom: true });
-		var m = board.create('slider', [[4, 0.5], [15, 0.5], [0, 11, 20]], { name: '\\(\\mu\\)', strokeColor: '#3034', fillColor: 'white',size: 3 });
-		var s = board.create('slider', [[4, 0.6], [15, 0.6], [0.1, 0.7, 10]], { name: '\\(\\sigma\\)', strokeColor: 'black', fillColor: 'white',size: 3 });
+		var m = board.create('slider', [[4, 0.5], [15, 0.5], [0, 11, 20]], { name: '\\(\\mu\\)', strokeColor: '#3034', fillColor: 'white',size: 5, withTicks: false });
+		var s = board.create('slider', [[4, 0.6], [15, 0.6], [0.1, 0.7, 10]], { name: '\\(\\sigma\\)', strokeColor: 'black', fillColor: 'white',size: 5, withTicks: false });
     
     //curves
 		var bellCurvew = board.create("functiongraph", [bellw, -20, 20], {strokeWidth: 2, highlight: false,strokeColor: '#306754'});
@@ -561,12 +561,12 @@ $$\left(2\pi\sigma^2\right)^{-\frac{1}{2}}\exp\left\{-\frac{1}{2\sigma^2}\left(x
 		board.create('text', [-6, 0.7, function () { return "\\(z_1=\\frac{x_1 - \\mu}{\\sigma} = \\)(" + r.Value().toFixed(2) + "-" + m.Value().toFixed(2) + ")/" + (s.Value()).toFixed(2) + "=" + ((r.Value() - m.Value())/(s.Value())).toFixed(3); }]);
 	    board.create('text', [5, 0.7, function () { return "\\(z_2=\\frac{x_1 - \\mu}{\\sigma} = \\)(" + u.Value().toFixed(2) + "-" + m.Value().toFixed(2) + ")/" + (s.Value()).toFixed(2) + "=" + ((u.Value() - m.Value())/(s.Value())).toFixed(3); }]);
 
-	board.create("point", [function () { return r.Value()}, function () { return bellw(r.Value())}],{name:function () { return'\\(f(x_1)=\\)'+bellw(r.Value()).toFixed(3)}, label: { autoPosition: true, offset: [-115, 0] }});
-    board.create("point", [function () { return u.Value()}, function () { return bellw(u.Value())}],{name:function () { return'\\(f(x_2)=\\)'+bellw(u.Value()).toFixed(3)}, label: { offset: [7, 0] }});
+	board.create("point", [function () { return r.Value()}, function () { return bellw(r.Value())}],{name:function () { return'\\(f(x_1)=\\)'+bellw(r.Value()).toFixed(3)}, label: { offset: [-120, 7] }});
+    board.create("point", [function () { return u.Value()}, function () { return bellw(u.Value())}],{name:function () { return'\\(f(x_2)=\\)'+bellw(u.Value()).toFixed(3)}, label: { offset: [7, 7] }});
 
 
-	board.create("point", [function () { return (r.Value() - m.Value())/(s.Value())}, function () { return bellStandw((r.Value() - m.Value())/(s.Value()))}],{name:function () { return'\\(f(x_1)=\\)'+bellStandw((r.Value() - m.Value())/(s.Value())).toFixed(3)}, label: { offset: [-115, 0] }});
-    board.create("point", [function () { return (u.Value() - m.Value())/(s.Value())}, function () { return bellStandw((u.Value() - m.Value())/(s.Value()))}],{name:function () { return'\\(f(x_2)=\\)'+bellStandw((u.Value() - m.Value())/(s.Value())).toFixed(3)}, label: { offset: [7, 0] }});
+	board.create("point", [function () { return (r.Value() - m.Value())/(s.Value())}, function () { return bellStandw((r.Value() - m.Value())/(s.Value()))}],{name:function () { return'\\(f(x_1)=\\)'+bellStandw((r.Value() - m.Value())/(s.Value())).toFixed(3)}, label: { offset: [-120, 7] }});
+    board.create("point", [function () { return (u.Value() - m.Value())/(s.Value())}, function () { return bellStandw((u.Value() - m.Value())/(s.Value()))}],{name:function () { return'\\(f(x_2)=\\)'+bellStandw((u.Value() - m.Value())/(s.Value())).toFixed(3)}, label: { offset: [7, 7] }});
 					
         //board.create('text',[-5,0.35, function(){ return '\\(\\displaystyle\\int_{x_1}^{x_2} = \\)' + JXG.toFixed(g1.Value(), 3); }]);
         board.create('text',[-5,-0.12, function(){ return '\\(\\displaystyle\\int_{z_1}^{z_2}\\frac{1}{\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{1}{2\\sigma^2}\\left(x-\\mu\\right)^2}= \\int_{x_1}^{x_2}\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}\\left(x\\right)^2} = \\)' + JXG.toFixed(g2.Value(), 3); }]);

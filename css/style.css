@@ -80,7 +80,7 @@ article {
     border-radius: 5px;
     background: #0120202f;
     margin: 20px;
-    color: white;
+    color: rgb(5, 34, 88);
     z-index: 999;
     # margin-bottom: 1%;
 }

@@ -2,7 +2,7 @@
 <html>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="font-awesome.min.css">
 <link rel="shortcut icon" type="image/x-icon" href="w.ico">
 <style>
 body {
@@ -32,31 +32,25 @@ body {
   font-size: 17px;
 }
 
+#navbar div div a {
+  display: block;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+  min-width:20px;
+  font-size: 15px;
+}
+
+
 #navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.navbar {
-  overflow: hidden;
-  width:90%;
-  border-radius:5px;
-  margin:auto;
-  background-color: #3333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
 
 .dropdown {
   float: right;
-  overflow: hidden;
+ # overflow: hidden;
 }
 
 .dropdown .dropbtn {
@@ -70,31 +64,16 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: blue;
-}
 
 .dropdown-content {
   display: none;
   position: absolute;
   border-radius:3px;
   background-color: #000;
-  min-width: 10px;
+  min-width: 100px;
   z-index: 1;
 }
 
-.dropdown-content a {
-  float: none;
-  color: orange;
-  padding: 12px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: blue;
-}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -132,9 +111,6 @@ iframe[seamless] {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="cerrar.php">Perfil ww www</a>
-      <a href="cerrar.php">Mensajes</a>
-      <a href="cerrar.php">Cerrar </a>
       <a href="cerrar.php">Perfil ww www</a>
       <a href="cerrar.php">Mensajes</a>
       <a href="cerrar.php">Cerrar </a>
